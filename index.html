@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- google fonts link -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&family=Poppins:wght@400;600;700&display=swap');
+
+        .font-Eb {
+            font-family: 'EB Garamond', serif;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+    <!-- tailwind customize config ---------- -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        googleEb: ['"EB Garamond"', 'serif'],
+                        fontPoppins: ['"Poppins"', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+
+
+
+    <!-- daisy UI CSS and JS -------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- tailwind JS--------------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <h1 class="font-Eb font-extrabold text-4xl">hello world</h1>
+
+</body>
+
+</html>
